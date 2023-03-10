@@ -3,22 +3,21 @@ title: "Project Organization"
 subtitle: "A guide on how to organize a reproducible research project"
 author: "Florian Hartig, University of Regensburg"
 format: 
-  gfm:
-    fig-format: png
-    embed-resources: true
-    self-contained-math: true
   pdf:
     toc: TRUE
     abstract: "This documents gives advice to ensure good project organization and reproducibility in a research project."
+  gfm:
+    fig-format: png
+    embed-resources: true
+    self-contained-math: true    
 editor: visual
 ---
 
 ```{r}
 #| echo: false
 #| message: false
-knitr::opts_chunk$set(fig.path="04-analysis/results/", echo = FALSE")
+knitr::opts_chunk$set(fig.path="04-analysis/results/", echo = FALSE)
 ```
-
 
 # Introduction
 

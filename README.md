@@ -1,5 +1,4 @@
-Project Organization
-================
+# Project Organization
 Florian Hartig, University of Regensburg
 
 # Introduction
@@ -128,6 +127,22 @@ Example:
 
 Note that the last 3 files get the same training number, because they
 don’t depend on each other.
+
+Coding style:
+
+- Script everything. No point and click, ever. If you absolutely have
+  to, add protocols for all mouse clicks you do
+
+- Scripts should be human-readable. Use comments and good variable
+  names, follow a consistent coding style, have your scripts logically
+  organized, use functions when appropriate
+
+- Never repeat yourself (NRY) - use functions instead of doing the same
+  thing with code in two different places of the script
+
+- Expect that you have made an error. Build in sanity checks / asserts,
+  either in the code, or as unit tests. Put in frequent plots /
+  summaries, but this only helps if you also look at them!
 
 Read also:
 
