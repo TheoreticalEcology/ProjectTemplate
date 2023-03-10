@@ -13,6 +13,13 @@ format:
 editor: visual
 ---
 
+```{r}
+#| echo: false
+#| message: false
+knitr::opts_chunk$set(fig.path="04-analysis/results/", echo = FALSE")
+```
+
+
 # Introduction
 
 The purpose of this project template is to suggest a project structure that
